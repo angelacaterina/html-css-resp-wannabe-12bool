@@ -1,0 +1,25 @@
+.t_center{
+  text-align: center;
+}
+
+h1, h3 {
+  padding: 15px;
+}
+
+.row, .card{
+  padding: 20px;
+}
+
+img{
+  height: 200px;
+}
+
+.why> img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+.p_10{
+  padding:10px;
+}
