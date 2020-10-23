@@ -30,10 +30,61 @@ img{
   border-radius: 50%;
   padding: 30px
 }
+/* small screen */
+@media all and (max-width: 768px) {
+  #lezioni, #steps, #why{
+    margin-top: 0;
+  }
 
+  #lezioni, #why {
+    background: #F2F2CD;
+  }
+  #steps {
+    background: white;
+  }
+
+  h1, h3 {
+    padding: 10px;
+  }
+  h1{
+    font-size: 1.3rem;
+  }
+  h3{
+    font-size: 16px;
+  }
+  p{
+    font-size: 12px;
+    padding-bottom: 7.5px;
+  }
+  .card{
+    padding: 10px;
+  }
+  .p_10{
+    padding:5px;
+  }
+
+  img{
+    height: 80px;
+  }
+  .why> img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 8px
+  }
+}
+/* medium screen */
 @media all and (min-width: 769px) and (max-width: 1200px){
   hr{
     display: none;
+  }
+  
+  #lezioni, #steps, #why{
+    margin-top: 0;
+  }
+
+  #steps .card{
+    background: white;
+    box-shadow: 0 0 10px #777777;
   }
 
   img{
