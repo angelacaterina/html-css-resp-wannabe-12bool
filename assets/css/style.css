@@ -1,25 +1,42 @@
-.t_center{
-  text-align: center;
+/* utility */
+.bg_lightgrey{
+  background: #f9f9f9;
 }
 
 h1, h3 {
   padding: 15px;
 }
+p{
+  padding-bottom: 15px;
+}
+.p_10{
+  padding:10px;
+}
+/* /utility */
+#lezioni, #steps, #why{
+  margin-top: 50px;
+  text-align: center;
+}
 
-.row, .card{
+.card{
   padding: 20px;
 }
 
 img{
   height: 200px;
 }
-
 .why> img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
 
-.p_10{
-  padding:10px;
+@media all and (min-width: 769px) and (max-width: 1200px){
+  hr{
+    display: none;
+  }
+
+  img{
+    height: 150px;
+  }
 }
